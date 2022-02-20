@@ -130,15 +130,15 @@ func main() {
 
 	// Some more interesting stuff
   pos, neg := adder(), adder()
-	for i := 0; i < 3; i++ {
-		fmt.Println(
-			pos(i),
-			neg(-2*i),
-		)
-	}	
+  for i := 0; i < 3; i++ {
+    fmt.Println(
+      pos(i),
+	    neg(-2*i),
+    )
+  }
 
-	// Methods (go doesn't have classes, but you can make methods for types)
-	fmt.Println(ts.min())	
+  // Methods (go doesn't have classes, but you can make methods for types)
+  fmt.Println(ts.min())
 
 }
 
